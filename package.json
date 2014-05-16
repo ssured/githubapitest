@@ -1,0 +1,24 @@
+{
+  "name": "githubapitest",
+  "version": "0.0.0",
+  "description": "github api tests",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssured/githubapitest.git"
+  },
+  "author": "Sjoerd de Jong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssured/githubapitest/issues"
+  },
+  "homepage": "https://github.com/ssured/githubapitest",
+  "dependencies": {
+    "rsvp": "~3.0.6",
+    "octonode": "~0.6.2",
+    "rsvp-throttle": "git://github.com/ssured/rsvp-throttle.git#master"
+  }
+}
